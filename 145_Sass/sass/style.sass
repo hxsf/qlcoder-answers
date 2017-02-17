@@ -1,0 +1,20 @@
+$check_str: "input:checked"
+$not_check_str: "input:not(:checked)"
+$size: 8
+@function rect($n, $m)
+    $top: repeat($check_str, $n, " + ")
+    $middle: $check_str + " + " + repeat($not_check_str, $n - 2, " + ") + " + " + $check_str + " + " + repeat("*", $size - $n, " + ")
+    @return $top + " + " + repeat("*", $size - $n, " + ") + " + " +  repeat($middle, $m - 2, " + ") + " + " + $top
+
+@function repeat($string, $times, $separator)
+    @if $times == 1
+        @return $string
+    $result: $string
+    @for $i from 1 to $times
+        $result: $result + $separator + $string
+    @return $result
+
+@for $i from 3 to 7
+    @for $j from 3 to 7
+        #{rect($i, $j)} ~ p::after
+            content: "connected"

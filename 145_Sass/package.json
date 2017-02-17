@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "node-sass --watch --recursive --output css --source-map true --source-map-contents sass",
+    "build": "node-sass --output-style compressed style.sass > css/style.css"
+  },
+  "dependencies": {
+    "node-sass": "^4.5.0"
+  },
+  "devDependencies": {
+    "sass-convert": "^0.5.2"
+  }
+}
