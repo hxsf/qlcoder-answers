@@ -2,17 +2,27 @@
 import os
 
 def build_dict():
-    encode = {}
-    decode = {}
+    encode_dict = {}
+    decode_dict = {}
     i = 0
-    for ch in list("abcdefghijklmnopqrstuvwzyx0123456789().!~*'-_"):
+    for ch in list("abcdefghijklmnopqrstuvwzyx0123456789().!~*'-_/:"):
         i += 1
-        encode[ch] = i
-        decode[i] = ch
+        encode_dict[ch] = i
+        decode_dict[i] = ch
+
+    def encode(str):
+        return [encode_dict[item] for item in list(str)]
+
+    def decode(bytes):
+        return ''.join([decode_dict[item] for item in bytes])
+
+
     return (encode, decode)
 
 (encode, decode) = build_dict()
-print (encode, decode)
+
+a = encode("http://baidu.com")
+print (a, decode(a))
 #
 # if not os.path.exists('./1.dat'):
 #     f = open("test_text","w")

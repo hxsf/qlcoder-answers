@@ -14,10 +14,10 @@ for ($i=0; $i < 256; $i++) {
         for ($k=0; $k < 256; $k++) {
             for ($l=0; $l < 256; $l++) {
                 $data=$TIP->ip2addr("$i.$j.$k.$l");
-                if ($data['province'] == '上海市') $cnt['上海市']++;
-                if ($data['province'] == '北京市') $cnt['北京市']++;
-                if ($data['city'] == '杭州市') $cnt['杭州市']++;
-                if ($data['city'] == '深圳市') $cnt['深圳市']++;
+                if ($data['province'] == '上海市') $cnt['上海市']++; // 7
+                if ($data['province'] == '北京市') $cnt['北京市']++; // 26
+                if ($data['city'] == '杭州市') $cnt['杭州市']++; // 242
+                if ($data['city'] == '深圳市') $cnt['深圳市']++; // 75
                 echo "$i.$j.$k.$l\n";
                 // break;
             }
