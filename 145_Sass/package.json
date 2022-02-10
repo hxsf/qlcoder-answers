@@ -4,7 +4,7 @@
     "build": "node-sass --output-style compressed style.sass > css/style.css"
   },
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "devDependencies": {
     "sass-convert": "^0.5.2"
