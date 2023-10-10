@@ -10,7 +10,7 @@
         }
         @-webkit-keyframes bugfix { from { padding: 0; } to { padding: 0; } }
 
-        input {
+        .item {
             -webkit-appearance: none;
             display: block;
             float: left;
@@ -22,19 +22,26 @@
             font-size: 30pt;
         }
 
-        input:nth-of-type(-n+7) {
+        .item:nth-of-type(-n+7) {
             border-top: 2px solid #ddd;
         }
 
-        input:nth-of-type(7n+1) {
+        .item:nth-of-type(7n+1) {
             border-left: 2px solid #ddd;
         }
 
-        input:before {
+        .item.noactive:before {
             content: "·";
         }
 
-        input:checked:before {
+        .item.active {
+            background: red;
+        }
+        .item.noactive {
+            background: blue;
+        }
+
+        .item.active:before {
             content: "○";
         }
 
@@ -44,24 +51,45 @@
             clear: both;
         }
 
-        p {
+        .ppp {
             clear: both;
         }
 
-        p:after {
-            content: "not_connected";
+        .ppp:after {
+            content: "not_support";
+        }
+        .iii ~ .ppp:after {
+            content: "false";
         }
     </style>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><label></label>
-<input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><label></label>
-<input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><label></label>
-<input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><label></label>
-<input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><label></label>
-<input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><label></label>
-<input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><label></label>
-<p></p>
+    <div>
+    <span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><label></label>
+    <span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><label></label>
+    <span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><label></label>
+    <span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><label></label>
+    <span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><label></label>
+    <span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><label></label>
+    <span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><span class="item noactive"></span><label></label>
+    <i class="iii"></i><p class='ppp'>33333333</p>
+    </div>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script>
+    $('.item').on('click', function() {
+        $(this).toggleClass('active')
+        $(this).toggleClass('noactive')
+    })
+    // var aa = document.querySelectorAll('.item')
+    // function onclick() {
+    //     var e = this.getAttribute('data-e') == '1' ? '0' : '1'
+    //     console.log(e)
+    //     this.setAttribute('data-e', e)
+    // }
+    // for (var i = 0; i < aa.length; i++) {
+    //     aa[i].onclick = onclick
+    // }
+</script>
 </body>
 </html>

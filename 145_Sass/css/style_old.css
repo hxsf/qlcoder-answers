@@ -1,0 +1,49 @@
+input:checked + input:checked + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:checked + input:checked ~ p::after {
+  content: "connected"; }
+
+input:checked + input:checked + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:checked + input:checked ~ p::after {
+  content: "connected"; }
+
+input:checked + input:checked + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:checked + input:checked ~ p::after {
+  content: "connected"; }
+
+input:checked + input:checked + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:checked + input:checked ~ p::after {
+  content: "connected"; }
+
+input:checked + input:checked + input:checked + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:checked + input:checked + input:checked ~ p::after {
+  content: "connected"; }
+
+input:checked + input:checked + input:checked + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:checked + input:checked + input:checked ~ p::after {
+  content: "connected"; }
+
+input:checked + input:checked + input:checked + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:checked + input:checked + input:checked ~ p::after {
+  content: "connected"; }
+
+input:checked + input:checked + input:checked + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:checked + input:checked + input:checked ~ p::after {
+  content: "connected"; }
+
+input:checked + input:checked + input:checked + input:checked + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:checked + input:checked + input:checked + input:checked ~ p::after {
+  content: "connected"; }
+
+input:checked + input:checked + input:checked + input:checked + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:checked + input:checked + input:checked + input:checked ~ p::after {
+  content: "connected"; }
+
+input:checked + input:checked + input:checked + input:checked + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:checked + input:checked + input:checked + input:checked ~ p::after {
+  content: "connected"; }
+
+input:checked + input:checked + input:checked + input:checked + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:checked + input:checked + input:checked + input:checked ~ p::after {
+  content: "connected"; }
+
+input:checked + input:checked + input:checked + input:checked + input:checked + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:checked + input:checked + input:checked + input:checked + input:checked ~ p::after {
+  content: "connected"; }
+
+input:checked + input:checked + input:checked + input:checked + input:checked + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:checked + input:checked + input:checked + input:checked + input:checked ~ p::after {
+  content: "connected"; }
+
+input:checked + input:checked + input:checked + input:checked + input:checked + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:checked + input:checked + input:checked + input:checked + input:checked ~ p::after {
+  content: "connected"; }
+
+input:checked + input:checked + input:checked + input:checked + input:checked + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:checked + input:checked + input:checked + input:checked + input:checked ~ p::after {
+  content: "connected"; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "thrift-client": "^0.2.37"
+  }
+}

@@ -1,49 +1,49 @@
-input:checked + input:checked + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:checked + input:checked ~ p::after {
-  content: "connected"; }
+.item.active + .item.active + .item.active + * + * + * + * + * + .item.active + .item.noactive + .item.active + * + * + * + * + * + .item.active + .item.active + .item.active ~ .ppp {
+  color: red; }
 
-input:checked + input:checked + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:checked + input:checked ~ p::after {
-  content: "connected"; }
+.item.active + .item.active + .item.active + * + * + * + * + * + .item.active + .item.noactive + .item.active + * + * + * + * + * + .item.active + .item.noactive + .item.active + * + * + * + * + * + .item.active + .item.active + .item.active ~ .ppp {
+  color: red; }
 
-input:checked + input:checked + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:checked + input:checked ~ p::after {
-  content: "connected"; }
+.item.active + .item.active + .item.active + * + * + * + * + * + .item.active + .item.noactive + .item.active + * + * + * + * + * + .item.active + .item.noactive + .item.active + * + * + * + * + * + .item.active + .item.noactive + .item.active + * + * + * + * + * + .item.active + .item.active + .item.active ~ .ppp {
+  color: red; }
 
-input:checked + input:checked + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:not(:checked) + input:checked + * + * + * + * + * + input:checked + input:checked + input:checked ~ p::after {
-  content: "connected"; }
+.item.active + .item.active + .item.active + * + * + * + * + * + .item.active + .item.noactive + .item.active + * + * + * + * + * + .item.active + .item.noactive + .item.active + * + * + * + * + * + .item.active + .item.noactive + .item.active + * + * + * + * + * + .item.active + .item.noactive + .item.active + * + * + * + * + * + .item.active + .item.active + .item.active ~ .ppp {
+  color: red; }
 
-input:checked + input:checked + input:checked + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:checked + input:checked + input:checked ~ p::after {
-  content: "connected"; }
+.item.active + .item.active + .item.active + .item.active + * + * + * + * + .item.active + .item.noactive + .item.noactive + .item.active + * + * + * + * + .item.active + .item.active + .item.active + .item.active ~ .ppp {
+  color: red; }
 
-input:checked + input:checked + input:checked + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:checked + input:checked + input:checked ~ p::after {
-  content: "connected"; }
+.item.active + .item.active + .item.active + .item.active + * + * + * + * + .item.active + .item.noactive + .item.noactive + .item.active + * + * + * + * + .item.active + .item.noactive + .item.noactive + .item.active + * + * + * + * + .item.active + .item.active + .item.active + .item.active ~ .ppp {
+  color: red; }
 
-input:checked + input:checked + input:checked + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:checked + input:checked + input:checked ~ p::after {
-  content: "connected"; }
+.item.active + .item.active + .item.active + .item.active + * + * + * + * + .item.active + .item.noactive + .item.noactive + .item.active + * + * + * + * + .item.active + .item.noactive + .item.noactive + .item.active + * + * + * + * + .item.active + .item.noactive + .item.noactive + .item.active + * + * + * + * + .item.active + .item.active + .item.active + .item.active ~ .ppp {
+  color: red; }
 
-input:checked + input:checked + input:checked + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + * + input:checked + input:checked + input:checked + input:checked ~ p::after {
-  content: "connected"; }
+.item.active + .item.active + .item.active + .item.active + * + * + * + * + .item.active + .item.noactive + .item.noactive + .item.active + * + * + * + * + .item.active + .item.noactive + .item.noactive + .item.active + * + * + * + * + .item.active + .item.noactive + .item.noactive + .item.active + * + * + * + * + .item.active + .item.noactive + .item.noactive + .item.active + * + * + * + * + .item.active + .item.active + .item.active + .item.active ~ .ppp {
+  color: red; }
 
-input:checked + input:checked + input:checked + input:checked + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:checked + input:checked + input:checked + input:checked ~ p::after {
-  content: "connected"; }
+.item.active + .item.active + .item.active + .item.active + .item.active + * + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + * + .item.active + .item.active + .item.active + .item.active + .item.active ~ .ppp {
+  color: red; }
 
-input:checked + input:checked + input:checked + input:checked + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:checked + input:checked + input:checked + input:checked ~ p::after {
-  content: "connected"; }
+.item.active + .item.active + .item.active + .item.active + .item.active + * + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + * + .item.active + .item.active + .item.active + .item.active + .item.active ~ .ppp {
+  color: red; }
 
-input:checked + input:checked + input:checked + input:checked + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:checked + input:checked + input:checked + input:checked ~ p::after {
-  content: "connected"; }
+.item.active + .item.active + .item.active + .item.active + .item.active + * + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + * + .item.active + .item.active + .item.active + .item.active + .item.active ~ .ppp {
+  color: red; }
 
-input:checked + input:checked + input:checked + input:checked + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + * + input:checked + input:checked + input:checked + input:checked + input:checked ~ p::after {
-  content: "connected"; }
+.item.active + .item.active + .item.active + .item.active + .item.active + * + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + * + .item.active + .item.active + .item.active + .item.active + .item.active ~ .ppp {
+  color: red; }
 
-input:checked + input:checked + input:checked + input:checked + input:checked + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:checked + input:checked + input:checked + input:checked + input:checked ~ p::after {
-  content: "connected"; }
+.item.active + .item.active + .item.active + .item.active + .item.active + .item.active + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + .item.active + .item.active + .item.active + .item.active + .item.active + .item.active ~ .ppp {
+  color: red; }
 
-input:checked + input:checked + input:checked + input:checked + input:checked + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:checked + input:checked + input:checked + input:checked + input:checked ~ p::after {
-  content: "connected"; }
+.item.active + .item.active + .item.active + .item.active + .item.active + .item.active + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + .item.active + .item.active + .item.active + .item.active + .item.active + .item.active ~ .ppp {
+  color: red; }
 
-input:checked + input:checked + input:checked + input:checked + input:checked + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:checked + input:checked + input:checked + input:checked + input:checked ~ p::after {
-  content: "connected"; }
+.item.active + .item.active + .item.active + .item.active + .item.active + .item.active + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + .item.active + .item.active + .item.active + .item.active + .item.active + .item.active ~ .ppp {
+  color: red; }
 
-input:checked + input:checked + input:checked + input:checked + input:checked + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:not(:checked) + input:checked + * + * + input:checked + input:checked + input:checked + input:checked + input:checked + input:checked ~ p::after {
-  content: "connected"; }
+.item.active + .item.active + .item.active + .item.active + .item.active + .item.active + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + .item.active + .item.noactive + .item.noactive + .item.noactive + .item.noactive + .item.active + * + * + .item.active + .item.active + .item.active + .item.active + .item.active + .item.active ~ .ppp {
+  color: red; }
 
 /*# sourceMappingURL=style.css.map */

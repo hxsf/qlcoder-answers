@@ -13,15 +13,14 @@ public class Gen {
 	public void next_state() {
 	    int p = 0;
 	    left = 624;
-	    for (int j = 228; --j > 0; p++) 
+	    for (int j = 228; --j > 0; p++)
 	        state[p] = state[p+397] ^ twist(state[p], state[p + 1]);
 
-	    for (int j=397;--j>0;p++) 
+	    for (int j=397;--j>0;p++)
 	        state[p] = state[p-227] ^ twist(state[p], state[p + 1]);
 
 	    state[p] = state[p-227] ^ twist(state[p], state[0]);
 	}
-
 	public long next() {
 	    if (--left == 0) next_state();
 	    return state[624-left];
